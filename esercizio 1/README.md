@@ -20,7 +20,7 @@ function calcValore(somma, tasso_cambio) {
 
     const risultato = somma * tasso_cambio;
 
-    return risultato;
+    return risultato.toFixed(2);
 }
 
 // BUSINESS LOGIC
